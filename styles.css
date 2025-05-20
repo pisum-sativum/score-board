@@ -69,11 +69,12 @@ body {
   line-height: 130px;
 }
 
-.box:hover{
+.box:hover {
   background-color: #3e52aa;
+  cursor: pointer;
 }
 
-.box:active{
+.box:active {
   background-color: #1b244a;
   transform: scale(0.95);
 }
