@@ -41,6 +41,7 @@ body {
   height: 130px;
   border-radius: 12px;
   box-sizing: border-box;
+  transition: background-color 0.5s ease, transform 0.15s ease;
 }
 .score-box {
   background-color: #080001;
@@ -66,4 +67,13 @@ body {
   font-size: 50px;
   margin: 0;
   line-height: 130px;
+}
+
+.box:hover{
+  background-color: #3e52aa;
+}
+
+.box:active{
+  background-color: #1b244a;
+  transform: scale(0.95);
 }
