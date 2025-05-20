@@ -71,6 +71,7 @@ body {
 
 .box:hover{
   background-color: #3e52aa;
+  cursor: pointer;
 }
 
 .box:active{
